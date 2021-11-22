@@ -12,6 +12,17 @@
 
 马硕 ！！もっと頑張ってください ！
 
+## 之前收藏夹里的一些好的文章
++ [前端工程师的自检清单](https://juejin.cn/post/6844903830887366670)，当然现在让你看这个肯定看不过来，但可以先记录在这里
++ ...
+
+## 软技能
++ 正则（不用多说，必会）[速查表](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)可以抽一个下午时间整体过一遍规则（时间足够），后面编程过程中练习
++ Git（不用多说，必会）[一个相当 nice 的教程](https://learngitbranching.js.org/?locale=zh_CN)，一个下午基本能过完
++ markdown（建议学一下语法，很快半小时就行，还是很好用的，很适合写文档）
++ devtools（前端调试需要了解）network、火焰图、性能看板之类的
++ shell（了解）平时可能会要写简单脚本，但实际情况是：写的时候，边写边查语法就行
+
 ## 网络
 这几个算通用考点，任何技术面试估计都会问到，不会的话要挨打的喔
 + http/https、https加密基础
@@ -56,40 +67,45 @@
 + 类型装箱
 + ...
 
-当然网上也很多总结 js 基础的内容，[JS基础知识](https://juejin.cn/post/6844903625618096141)
+当然网上也很多总结 js 基础的内容，比如 [JS基础知识](https://juejin.cn/post/6844903625618096141)
 
 ### es6+
+这块其实没啥好说的，就是一些新语法，很多都是之前的语法糖，看不明白直接找我
 + [ES6 入门教程](https://es6.ruanyifeng.com/) 随便看看就行
 + let / const ，作用域
 + promise
 + async/await 语法糖
 + class 语法糖
++ ...
 
 ### 执行原理
-
++ 关键词: `esc`、`VO`、`AO`、`作用域链`、`闭包`、`this`
++ 一个写的很粗糙的执行原理的 [文章](https://juejin.cn/post/6844903551009816589)
++ 一个写的还行的 [执行过程](https://juejin.cn/post/6844903876286480398)
++ 一个写的还行的人的 [博客](https://yangbo5207.github.io/wutongluo/ji-chu-jin-jie-xi-lie/yi-3001-nei-cun-kong-jian-xiang-jie.html)
 
 ### 模块化及历史
-
++ [图说 ES Modules](https://segmentfault.com/a/1190000014318751)
++ 一篇还行的js模块化 [文章](https://github.com/ljianshu/Blog/issues/48)
++ 可以尝试看下 [RequireJ源码解析](https://juejin.cn/post/6844903540494712839)
 
 ### 函数式编程
-
-
-## 前端需要的软技能
-+ 正则（不用多说，必会）[速查表](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)可以抽一个下午时间整体过一遍规则（时间足够），后面编程过程中练习，
-+ Git（不用多说，必会）[一个相当 nice 的教程](https://learngitbranching.js.org/?locale=zh_CN)
-+ markdown（建议学一下语法，很快半小时就行，还是很好用的，很适合写文档）
-+ devtools（前端调试需要了解）network、火焰图、性能看板之类的
-+ shell（了解）平时可能会要写简单脚本，但实际情况是：写的时候，边写边查语法就行
+这块不做要求，了解即可
+但是对我个人而言，我觉得深入之后会发现自己的编程能力有很大提升
+可以先尝试看书《轻量级函数式编程》
 
 ## 浏览器基础
+这块面试也会问，但一般是穿插到某些面试题中，所以了解机制很重要
 
 ### dom 种类、API
 
 ### 浏览器事件机制
 
 ### EventLoop
++ [从输入URL到页面加载的过程](https://segmentfault.com/a/1190000013662126#articleHeader10)
 
 ### 线程、进程
++ [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
 
 ### 渲染流程
 不做强要求（因为我也不熟悉），但如果深挖的话这里面还是有很多可以讨论的内容，也比较有趣，可以康康
@@ -120,7 +136,7 @@ Vue 算比较火的框架之一，且相较另外两个来说，学习曲线更�
 
 相关书籍（不建议读，因为比较浪费时间，还不如看相关博客总结，读的话建议配合源码食用）
 + Vue js 权威指南
-+ 
++ ...
 
 ## 设计模式
 不做强要求，但可能会穿插到你做过的项目或者代码片段中去，面试的时候如果会可以说一说，会比较加分  
@@ -149,7 +165,8 @@ Vue 算比较火的框架之一，且相较另外两个来说，学习曲线更�
 nodejs 相关的服务端开发建议搞一搞，最好能实践一下，有些面试官可能比较看重这个经验
 
 ### Koa2
-
++ nodejs 原理
++ 洋葱模型
 
 ### BFF 架构
 
